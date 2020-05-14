@@ -7,7 +7,7 @@ Recognises handwritten digits
 - This program classified the MNIST handwritten digit images as a number 0-9
 
 **How**:
-- Uses Neural Network to recognise handwritten digits
+- Uses Neural Network to recognise handwritten digits through Keras.
 - Built 3 layers. 2 layers with 64 neurons and the relu function. 1 layer with 10 neurons and softmax function
 - Chose *sparse_categorical_crossentropy* as a loss function since Mutual Exclusive Data. 
 - Chose *sparse_categorical_accuracy* as metric, since if *accuracy* were chosen, *sparse* loss function would have been 
